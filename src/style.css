@@ -3,3 +3,24 @@
 body{
     background: white;
 }
+
+.full-screen {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+}
+.text-top {
+    position: absolute;
+    margin-bottom: 70px;
+}
+.text-bottom{
+    margin-top: 80px;
+}
+#excuse {
+    font-weight: bolder;
+}
